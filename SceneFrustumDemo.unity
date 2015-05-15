@@ -1668,6 +1668,7 @@ GameObject:
   - 81: {fileID: 1933195679}
   - 114: {fileID: 1933195684}
   - 114: {fileID: 1933195685}
+  - 114: {fileID: 1933195686}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1712,9 +1713,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: .100000001
+  near clip plane: .0399999991
   far clip plane: 1000
-  field of view: 29
+  field of view: 49
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1734,8 +1735,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1933195678}
-  m_LocalRotation: {x: .564607024, y: 0, z: 0, w: .825359941}
-  m_LocalPosition: {x: 0, y: 15.0200005, z: 0}
+  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106709}
+  m_LocalPosition: {x: -22.8999996, y: 16.1000004, z: -10.1999998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1788,7 +1789,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1933195678}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce9e212b01fd5dd4aa48ab22af171db3, type: 3}
   m_Name: 
@@ -1797,8 +1798,8 @@ MonoBehaviour:
   zFactor: 1.5
   xFactor: -20
   distanceFromKinectInMeters: 1.29999995
+  flipScreen: 0
   cameraHeight: 12
-  cameraHeightFactor: .800000012
   projectionScreen: {fileID: 1007769870}
   estimateViewFrustum: 1
   Corners:
@@ -1807,6 +1808,25 @@ MonoBehaviour:
   - {fileID: 1940159212}
   - {fileID: 2140005927}
   lookTarget: {fileID: 1238722333}
+--- !u!114 &1933195686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1933195678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bb824bf37bfbe4fb73042622c35101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Corners:
+  - {fileID: 855207812}
+  - {fileID: 1882083338}
+  - {fileID: 1940159212}
+  - {fileID: 2140005927}
+  lookTarget: {fileID: 1007769874}
+  drawNearCone: 0
+  drawFrustum: 1
 --- !u!1001 &1937114730
 Prefab:
   m_ObjectHideFlags: 0
