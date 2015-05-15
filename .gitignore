@@ -1,9 +1,9 @@
-./SceneFrustumDemo.unity
-./SceneRoom.unity
-./Scripts/FrustumDemo.cs
-./Scripts/FrustumDemo.cs.meta
-./Scripts/DontGoThroughThings.cs
-./Scripts/DontGoThroughThings.cs.meta
-./Scripts/ScaleObjToCamera.cs
-./Scripts/ScaleObjToCamera.cs.meta
+SceneFrustumDemo.unity
+SceneRoom.unity
+Scripts/FrustumDemo.cs
+Scripts/FrustumDemo.cs.meta
+Scripts/DontGoThroughThings.cs
+Scripts/DontGoThroughThings.cs.meta
+Scripts/ScaleObjToCamera.cs
+Scripts/ScaleObjToCamera.cs.meta
 
